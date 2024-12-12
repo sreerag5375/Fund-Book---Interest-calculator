@@ -26,6 +26,7 @@ const AddNewPerson = () => {
 
   return (
     <div className="form-container">
+      <h1 className="text-red-600 text-center">PERSON DETAILS</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name : </label>
